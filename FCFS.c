@@ -1,4 +1,4 @@
-//Program to implement First Come First Serve scheduling
+//Program to implement First Come First Serve (FCFS) scheduling
 
 #include<stdio.h>
 int main()
