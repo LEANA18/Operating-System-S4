@@ -19,12 +19,11 @@ void main()
 void FIFO(int prs[], int n, int frame)
 	{
 		int pagefault = 0, hit=0,i,j,s;
-		int f;
 		int temp[frame];
 		printf("\nValues\t");
-		for(i=1;i<=f;i++)
+		for(i=1;i<=frame;i++)
 			printf("Frame%d\t",i);
-		printf("\n");
+		    printf("\n");
 		for(i= 0; i< frame; i++)
 		{
 			temp[i] = -1;
